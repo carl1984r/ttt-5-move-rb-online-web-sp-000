@@ -12,7 +12,7 @@ def input_to_index(input)
 end
 
 def move(board, newvar, value="X")
-  board.insert(newvar, value)
+  board.insert(newvar)
   board.pop
 end
 
